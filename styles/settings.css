@@ -1,6 +1,6 @@
 :root {
-  --first-color: ;
-  --second-color: ;
+  --first-color: #007bff;
+  --second-color: gray;
   --black: #000;
   --white: #fff;
   --font-title: ;
@@ -69,8 +69,8 @@ header {
 }
 
 header.scrolled {
-  background-color: var(--black-bg);
-  border-color: var(--first-color);
+  background-color: var(--first-color);
+  /* border-color: var(--first-color); */
 }
 
 header img {
