@@ -10,7 +10,7 @@ function toggleMenu(event) {
   
   if (active) {
     event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
-    header.style.backgroundColor = 'var(--black-bg)';
+    header.style.backgroundColor = 'var(--first-color)';
   } else {
     event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
     header.style.backgroundColor = 'transparent';

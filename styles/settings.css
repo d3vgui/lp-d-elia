@@ -1,6 +1,6 @@
 :root {
-  --first-color: #007bff;
-  --second-color: gray;
+  --first-color: #002c5a;
+  --second-color: #808080;
   --black: #000;
   --white: #fff;
   --font-title: ;
@@ -66,11 +66,13 @@ header {
   z-index: 1000;
   transition: background-color 0.3s ease, border-bottom 0.3s ease;
   border-bottom: 2px solid transparent;
+  
 }
 
 header.scrolled {
   background-color: var(--first-color);
-  /* border-color: var(--first-color); */
+  border-color: var(--second-color);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 header img {
@@ -104,7 +106,7 @@ ul{
   content: "";
   width: 0%;
   height: 1px;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -120,14 +122,14 @@ ul{
   display: none;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 991px) {
   #menu {
     display: block;
     position: absolute;
     width: 100%;
     top: 95px;
     right: 0px;
-    background: var(--black-bg);
+    background: var(--first-color);
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
@@ -215,8 +217,8 @@ ul{
 
 footer {
   padding: 80px 0;
-  background-color: var(--black-bg);
-  border-top: 3px solid var(--first-color);
+  background-color: var(--first-color);
+  border-top: 3px solid var(--second-color);
 }
 
 footer .content-footer {
@@ -261,7 +263,7 @@ footer .content-footer a {
 }
 
 footer .content-footer a:hover {
-  color: var(--first-color) !important;
+  color: var(--second-color) !important;
 }
 
 footer .content-footer i {
@@ -274,7 +276,7 @@ footer .content-footer i {
 footer .line{
   height: 1px;
   margin-top: 60px;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
 }
 
 footer .dev{
