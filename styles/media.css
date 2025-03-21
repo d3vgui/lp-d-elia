@@ -103,4 +103,8 @@
   #section-one .left-content h1 {
     font-size: 34px;
   }
+
+  #section-two .box-img{
+    width: 300px;
+  }
 }
