@@ -107,4 +107,8 @@
   #section-two .box-img{
     width: 300px;
   }
+
+  #section-five .left-content .box-img{
+    width: 300px;
+  }
 }
