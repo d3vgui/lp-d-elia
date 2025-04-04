@@ -22,12 +22,12 @@
   }
 
   #section-three .box {
-    height: 300px;
+    height: 100%;
     width: 100%;
   }
 
   #section-three .box p {
-    height: 130px;
+    height: 150px;
   }
 
   #section-three .btn-contact-us i {
@@ -81,6 +81,16 @@
   #section-one .left-content h1 {
     font-size: 40px;
   }
+
+  /* SECTION TWO */
+
+  #section-two .box-img img {
+    height: 470px;
+  }
+
+  #section-five .box-img img {
+    height: 470px !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -104,11 +114,21 @@
     font-size: 34px;
   }
 
-  #section-two .box-img{
+  #section-two .box-img {
     width: 300px;
   }
 
-  #section-five .left-content .box-img{
+  #section-five .left-content .box-img {
     width: 300px;
+  }
+
+  /* SECTION TWO */
+
+  #section-two .box-img img {
+    height: 400px;
+  }
+
+  #section-five .box-img img {
+    height: 400px !important;
   }
 }
